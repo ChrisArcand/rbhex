@@ -1,2 +1,2 @@
-require "rbhex/core"
-require "rbhex/version"
+require 'rbhex/core'
+require 'rbhex/version'
