@@ -19,12 +19,12 @@ Or install it yourself as:
     $ gem install rbhex
 
 ## Components
-* **rbhex-core**
+* **rbhex-core**  
   Contains the core widgets and infrastructure of the rbhex toolkit
-* **rbhex-extras (planned)**
+* **rbhex-extras (planned)**  
   Extras for rbhex, including base application classes to get up and running
   quickly. 
-* **rbhex-spies (planned)**
+* **rbhex-spies (planned)**  
   Adds spies to your ncurses application. An example use could be
   monitoring the status of a web API. 
 
