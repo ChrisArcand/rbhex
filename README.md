@@ -1,6 +1,8 @@
-# Rbhex
+# rbhex
 
-TODO: Write a gem description
+rbhex is a toolkit for building ncurses applications for text terminals in Ruby.
+
+This is the meta-gem for rbhex, currently only containing the [rbhex-core][1] gem.
 
 ## Installation
 
@@ -16,9 +18,15 @@ Or install it yourself as:
 
     $ gem install rbhex
 
-## Usage
-
-TODO: Write usage instructions here
+## Components
+* **rbhex-core**
+  Contains the core widgets and infrastructure of the rbhex toolkit
+* **rbhex-extras (planned)**
+  Extras for rbhex, including base application classes to get up and running
+  quickly. 
+* **rbhex-spies (planned)**
+  Adds spies to your ncurses application. An example use could be
+  monitoring the status of a web API. 
 
 ## Contributing
 
@@ -27,3 +35,5 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+[1]: https://github.com/ChrisArcand/rbhex-core

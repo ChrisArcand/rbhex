@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in rbhex.gemspec
-gemspec
+gem "rake"
+
+%w[rbhex-core].each do |lib|
+  gem lib, :path => File.expand_path("../../#{lib}", __FILE__)
+end
