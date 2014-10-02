@@ -23,9 +23,9 @@ Gem::Specification.new do |spec|
 
   %w[core].each do |name|
     if Rbhex::VERSION =~ /[a-zA-Z]+/
-      spec.add_runtime_dependency "rspec-#{name}", "= #{Rbhex::VERSION}"
+      spec.add_runtime_dependency "rbhex-#{name}", "= #{Rbhex::VERSION}"
     else
-      spec.add_runtime_dependency "rspec-#{name}", "~> #{Rbhex::VERSION.split('.')[0..1].concat(['0']).join('.')}"
+      spec.add_runtime_dependency "rbhex-#{name}", "~> #{Rbhex::VERSION.split('.')[0..1].concat(['0']).join('.')}"
     end
   end
 end
