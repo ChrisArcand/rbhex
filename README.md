@@ -32,3 +32,5 @@ Or install it yourself as:
 
 This project is a continuation/fork of [rkumar](https://github.com/rkumar)'s [rbcurse](https://github.com/rkumar/rbcurse-core). 
 rbcurse is no longer maintained as of March 2014.
+
+[1]: https://github.com/ChrisArcand/rbhex-core
