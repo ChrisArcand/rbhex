@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", "~> 10.3"
 
-  %w[core, layouts].each do |name|
+  %w[core layouts].each do |name|
     if Rbhex::VERSION =~ /[a-zA-Z]+/
       spec.add_runtime_dependency "rbhex-#{name}", "= #{Rbhex::VERSION}"
     else
